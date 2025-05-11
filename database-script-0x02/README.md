@@ -1,0 +1,1 @@
+Sql Script to seed the database of AirBnB Clone

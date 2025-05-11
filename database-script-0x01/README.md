@@ -1,0 +1,1 @@
+Sql Script to create all entities of AirBnB Clone
