@@ -1,1 +1,1 @@
-
+ ["CREATE TABLE", "PARTITION BY"]
