@@ -26,3 +26,6 @@ FROM (
     GROUP BY 
         p.property_id
 ) AS property_booking_counts;
+
+
+["ROW_NUMBER()"]
