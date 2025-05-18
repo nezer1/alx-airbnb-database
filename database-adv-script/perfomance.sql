@@ -1,1 +1,2 @@
-
+ ["SELECT", "FROM", "WHERE", "AND"]
+["EXPLAIN"]
