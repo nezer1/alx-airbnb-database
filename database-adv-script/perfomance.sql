@@ -21,7 +21,7 @@ FROM
 JOIN 
     User u ON b.user_id = u.user_id
 JOIN 
-    Properties p ON b.property_id = p.property_id
+    Property p ON b.property_id = p.property_id
 LEFT JOIN 
     Payment pay ON b.booking_id = pay.booking_id;
 
@@ -35,7 +35,7 @@ CREATE INDEX idx_bookings_user_id ON Booking(user_id);
 CREATE INDEX idx_bookings_property_id ON Booking(property_id);
 CREATE INDEX idx_payments_booking_id ON Payments(booking_id);
 CREATE INDEX idx_user_user_id ON User(user_id);
-CREATE INDEX idx_properties_property_id ON Properties(property_id);
+CREATE INDEX idx_properties_property_id ON Property(property_id);
 
 
 
@@ -53,7 +53,7 @@ FROM
 JOIN 
     User u ON b.user_id = u.user_id
 JOIN 
-    Properties p ON b.property_id = p.property_id
+    Property p ON b.property_id = p.property_id
 LEFT JOIN 
     Payments pay ON b.booking_id = pay.booking_id
 WHERE 
